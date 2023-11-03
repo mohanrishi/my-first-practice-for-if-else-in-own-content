@@ -1,0 +1,128 @@
+simple if model
+
+syntax:~~
+
+statement 1
+statement 2
+
+if(//condition input here) 
+{if condition accepted (true) ,,,after running this inside of curly brackets.... print or update or any order give} 
+console.log()
+
+model: 
+     let num = 100 ;
+     let num1 = 108;
+if(num<num1){
+    num += num1  //208
+    num1 -= 8   //100
+    num -= 8   //200
+}console.log(num,num1)
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+if else model
+
+//mind it : if condition is not true autometically Else inside of curly bracket process and update
+
+model :~~
+
+       let num = 1300
+      let num1 = 1500
+if(num>=num1){
+   console.log("num and num1 is equal or num is biggest number")
+   console.log("dont feel every one")
+
+}else {console.log("num and num1 are differnt type of value")
+}
+````````````````````````````````````````````````````````````````````````
+//own coding
+
+model :~~
+
+let mohan = 1200;
+let dharani = 1200;
+let dharun = 1500;
+let shankar = 2000;
+let yogesh = 2500;
+let dimpleBoy =  2700;
+let dimpleGirl = 2800;
+if(mohan>=1500){
+    console.log("mohan ready to tour")
+}else {console.log("mohan pleace ready money for tour")
+}
+if (dharani>=1500){
+    console.log("dharani ready to tour")
+}else{console.log("dharani pleace ready money for tour")
+}
+if (dharun>=1500){
+    console.log("dharun ready to tour")
+}else{console.log("dharun pleace ready money for tour")
+}
+if(shankar>=1500){
+    console.log("shankar ready to tour")
+}else{console.log("shankar pleace ready money for tour")
+}
+if(yogesh>=1500){
+    console.log("yogesh ready to tour")
+}else{console.log("yogesh pleace ready money for tour")
+}
+if (dimpleBoy>=1500){
+    console.log("dimple boy ready to tour")
+}else{console.log("dimple boy pleace ready money for tour")
+}
+if (dimpleGirl>=1500){
+    console.log("dimple girl ready to tour")
+}else{console.log("dimple girl pleace ready money for tour")
+}
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+lader if else 
+syntax :~~
+
+if(condition) { condition is false automatically move to next step }
+else if(condition) { condition is false automatically move to next step }
+else if(condition) { condition is false automatically move to next step }
+else if(condition) { condition is false automatically move to next step }
+else if(condition) { condition is false automatically move to next step }
+else  { console.log( ) //finally finish the }
+
+model :~~
+          let num = 2500;
+          let sum = 2800;
+if ( num==sum) {
+console.log("num and sum is equal") }
+
+else if(num>=sum) {
+console.log("num is greater then sum")}
+
+else if(num<=sum) {
+console.log("num is small , for sum") }
+
+else{ console.log("num and sum is different number") }
+
+own model ;
+````````````  (biggest reference model)
+model:~~
+
+let hrs = new Date();
+console.log(hrs)
+let hours = hrs.getHours();
+console.log(hours)
+console.log("hellow")
+if(hours>=0 && hours <=12){
+    console.log("good morning");
+}else if(hours>=12 && hours <=16){ console.log('good afternoon')
+}else if (hours>=16 && hours <=21){console.log("good evening")
+}else {console.log("good night")
+}
+console.log("thank you.. have a nice to all days")
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+//own try if, else if
+
+model:~~
+
+let mohan = 35 ;
+if(mohan>35){
+    console.log("mohan you are pass")
+console.log("all the best")
+}else if(mohan==35){
+    console.log("just miss, you are just pass")
+}else{console.log("sorry you are fail")
+}
